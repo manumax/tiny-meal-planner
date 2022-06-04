@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:meal_planner/calendar_list.dart';
+import 'package:meal_planner/screens/weekly_plan.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const CalendarList(),
+      home: const WeeklyPlan(),
     );
   }
 }
